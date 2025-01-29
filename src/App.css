@@ -1,0 +1,12 @@
+@import url("./reset.css");
+@font-face {
+  font-family: Varien;
+  src: url("./assets/fonts/Varien.otf");
+}
+
+.app {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}

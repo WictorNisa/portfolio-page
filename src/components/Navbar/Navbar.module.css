@@ -1,0 +1,44 @@
+.navBar {
+  background-color: #fff;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.logoText {
+  height: 100%;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoText h2 {
+  font-family: Varien;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+.navList {
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+
+.listItem a {
+  text-decoration: none;
+  font-family: Varien;
+  letter-spacing: 2px;
+  color: #000;
+}
